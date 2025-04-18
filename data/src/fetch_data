@@ -8,5 +8,5 @@ def fetch_play_by_play(season=2024):
         print(f"✅ Downloaded {len(df):,} plays.")
         return df
     except Exception as e:
-        print(f"❌ Error downloading data: {e}")
+        print(f" Error downloading data: {e}")
         return None
